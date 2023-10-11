@@ -19,7 +19,7 @@ const AddCategory = ({ onNewCategory }) => {
     <form onSubmit={handleSubmit}>
       <input
         type="text"
-        placeholder="Buscar gif..."
+        placeholder="Search gif..."
         value={inputValue}
         onChange={handleInputChange}
       />
